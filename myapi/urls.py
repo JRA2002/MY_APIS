@@ -1,10 +1,13 @@
+from .api import ProductViewSet
 from rest_framework import routers
-from .api import ProductViewset
-
 #create routes for api
 router = routers.DefaultRouter()
 
 #register all routes and put direction , view, name
-router.register('api',ProductViewset,'api')
+router.register('api',ProductViewSet,'api')
 
 urlpatterns = router.urls
+
+
+
+

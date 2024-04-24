@@ -99,6 +99,7 @@ DATABASES = {
         'USER': 'postgres',
         'PASSWORD': '12345',
         
+        
     }
 }
 
